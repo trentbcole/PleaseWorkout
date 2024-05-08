@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "170163809441",
+    "project_id": "pleaseworkout-a2116",
+    "storage_bucket": "pleaseworkout-a2116.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:170163809441:android:ff30f4b2f4f387668d94e0",
+        "android_client_info": {
+          "package_name": "com.example.pleaseworkout"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHFMIetc3dFMzKXhHqTyKTyjXjQoI7NNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

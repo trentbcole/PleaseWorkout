@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PleaseWorkout</string>
+    <string name="workout">Workout</string>
+    <string name="cardio">Cardio</string>
+    <string name="chest">Chest</string>
+    <string name="back">Back</string>
+    <string name="description">Description</string>
+    <string name="workout_name">Workout Name</string>
+    <string name="bmi">BMI</string>
+    <string name="weight">Weight</string>
+    <string name="weight_in_lbs">Weight in Lbs</string>
+    <string name="height_in_inches">Height in Inches</string>
+    <string name="result">result</string>
+    <string name="your_bmi">Your BMI</string>
+    <string name="_18_5_18_5_24_9_25_29_9_30_34_9_35"><![CDATA[<18.5 | 18.5 - 24.9 | 25 - 29.9 | 30 - 34.9 | 35<]]></string>
+    <string name="underweight_normal_overweight_obese_extremely_obese">UnderWeight | Normal | Overweight | Obese | Extremely Obese</string>
+</resources>

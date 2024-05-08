@@ -30,7 +30,7 @@
 
         <ImageView
             android:id="@+id/workoutImage"
-            android:src="@{workout.workoutImage}"
+            android:imageUrl="@{workout.workoutImage}"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:elevation="30dp"
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="@{workout.workoutDifficulty}"
+                android:text="@{workout.workoutExplain}"
                 android:layout_margin="10dp"
                 android:textColor="@color/white"
                 android:textSize="15sp"

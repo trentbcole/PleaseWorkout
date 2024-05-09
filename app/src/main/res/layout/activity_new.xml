@@ -52,7 +52,7 @@
                     android:padding="10dp"
                     android:layout_marginLeft="25dp"
                     android:layout_marginRight="25dp"
-                    android:background="#FFEB3B"
+                    android:background="@color/lightGray"
                     android:textColor="@color/black"/>
 
                 <View

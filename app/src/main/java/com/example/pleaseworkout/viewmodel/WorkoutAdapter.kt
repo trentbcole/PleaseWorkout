@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.pleaseworkout.R
 import com.example.pleaseworkout.databinding.ChestListBinding
 import com.example.pleaseworkout.model.WorkoutData
+import com.example.pleaseworkout.view.NewActivity
 
 class WorkoutAdapter (
 
@@ -35,7 +36,14 @@ class WorkoutAdapter (
             val workoutImage = newList.workoutImage
             val workoutName = newList.workoutName
             val workoutExplain = newList.workoutExplain
-            val workoutDiff = newList.workoutDifficulty
+            val workoutType = newList.workoutType
+
+            val mIntent = Intent(c, NewActivity::class.java)
+            mIntent.putExtra("workoutImage", workoutImage)
+            mIntent.putExtra("workoutName", workoutName)
+            mIntent.putExtra("workoutType", workoutType)
+            mIntent.putExtra("workoutExplain", workoutExplain)
+            c.startActivity(mIntent)
 
         }
     }

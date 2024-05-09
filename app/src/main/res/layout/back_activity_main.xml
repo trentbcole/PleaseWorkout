@@ -15,6 +15,7 @@
             android:id="@+id/recyclerChest"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="30dp"
             tools:listitem="@layout/back_list"/>
     </LinearLayout>
 

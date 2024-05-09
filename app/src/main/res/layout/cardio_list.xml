@@ -74,7 +74,8 @@
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
-                android:textColor="@android:color/darker_gray"/>
+                android:textColor="@android:color/darker_gray"
+                android:padding="@dimen/my_value"/>
 
 
         </LinearLayout>

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PleaseWorkout"
         tools:targetApi="31">
         <activity
+            android:name=".view.NewActivity"
+            android:exported="false" />
+        <activity
             android:name=".view.CardioActivity"
             android:exported="false" />
         <activity
@@ -32,7 +35,7 @@
         </activity>
         <activity
             android:name=".view.Calculate"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

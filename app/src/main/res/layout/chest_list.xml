@@ -4,7 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <data>
         <variable
-            name="workout"
+            name="chestworkout"
             type="com.example.pleaseworkout.model.WorkoutData" />
     </data>
 
@@ -30,7 +30,7 @@
 
         <ImageView
             android:id="@+id/workoutImage"
-            android:imageUrl="@{workout.workoutImage}"
+            android:imageUrl="@{chestworkout.workoutImage}"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:elevation="30dp"
@@ -50,7 +50,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:gravity="center"
-                android:text="@{workout.workoutName}"
+                android:text="@{chestworkout.workoutName}"
                 android:textColor="@color/white"
                 android:textSize="19sp"
                 android:textStyle="bold|normal"/>
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:gravity="center"
-                android:text="@{workout.workoutExplain}"
+                android:text="@{chestworkout.workoutExplain}"
                 android:layout_margin="10dp"
                 android:textColor="@color/white"
                 android:textSize="15sp"

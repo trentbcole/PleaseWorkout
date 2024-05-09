@@ -30,7 +30,7 @@ class WorkoutAdapter (
 
     override fun onBindViewHolder(holder: WorkoutViewHolder, position: Int) {
         val newList = chestlist[position]
-        holder.v.workout = chestlist[position]
+        holder.v.chestworkout = chestlist[position]
         holder.v.root.setOnClickListener {
             val workoutImage = newList.workoutImage
             val workoutName = newList.workoutName
